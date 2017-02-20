@@ -1,4 +1,7 @@
 #Elizabeth Chang
 #hc3gf@virginia.edu
 
-print("Hello World!")
+from helper import greeting
+
+if __name__ == "__main__":
+    greeting("Hello World!")
